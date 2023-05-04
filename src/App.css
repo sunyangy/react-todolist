@@ -1,0 +1,98 @@
+.todoList-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel {
+    width: 80vw;
+    max-width: 600px;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.25rem;
+}
+
+.title {
+    text-align: center;
+}
+
+.input-con {
+    width: 100%;
+    display: flex;
+}
+
+.input {
+    flex: 1;
+    padding-left: 1rem;
+    border-right: none;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-color: var(--grey-400);
+}
+
+.input:focus {
+    /* outline: none; */
+    border: none;
+    outline-color: var(--primary-400);
+}
+
+.add-btn {
+    width: 100px;
+    padding: 0.5rem;
+    color: white;
+    background-color: var(--primary-600);
+    border: none;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 0.25rem;
+}
+
+
+.text {
+    flex: 1;
+    margin-right: 10px;
+    line-height: 2rem;
+}
+
+.btn {
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.delete-btn {
+    color: white;
+    background-color: tomato;
+
+}
+
+.edit-btn {
+    color: white;
+    background-color: blueviolet;
+    transform: none;
+}
+
+.save-btn {
+    color: white;
+    background-color: var(--primary-400)
+}
+
+.task-item {
+    display: flex;
+    height: 2rem;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.all-done {
+    margin-top: 2rem;
+    text-align: center;
+
+    color: violet;
+}
